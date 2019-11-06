@@ -6,11 +6,12 @@ var speed = 0.1
 var speedChanger = 0
 function setup() {
   createCanvas(400, 400);
+  bg = loadImage('assets/moonwalk.jpg');
 }
 
 
 function draw() {
-  background("lightskyblue");
+  background(bg);
   fill(balloonColor)
   ellipse(randomX, distanceToTop, 50, 60)
   fill('grey');
