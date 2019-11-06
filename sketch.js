@@ -6,11 +6,12 @@ var speed = 0.1
 var speedChanger = 0
 function setup() {
   createCanvas(400, 400);
+  drawImage(skyImage.jpeg,0,0,400,400);
 }
 
 
 function draw() {
-  background(img src = "Skyimage.jpg");
+  background("light blue");
   fill(balloonColor)
   ellipse(randomX, distanceToTop, 50, 60)
   fill('grey');
