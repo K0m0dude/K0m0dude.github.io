@@ -10,7 +10,7 @@ function setup() {
 
 
 function draw() {
-  background("lightskyblue");
+  background(img src = "Skyimage.jpg");
   fill(balloonColor)
   ellipse(randomX, distanceToTop, 50, 60)
   fill('grey');
